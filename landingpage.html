@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>GALVATRON</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="landingpage.css">
+
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <span class="hamburger-btn material-symbols-rounded">menu</span>
+    <a href="#" class="logo">
+      <h2 class="btn-shine">GALVATRON</h2>
+    </a>
+    <ul class="links">
+      <span class="close-btn material-symbols-rounded">close</span>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#products">PRODUCTS</a></li>
+      <li><a href="#about-us">ABOUT US</a></li>
+      <li><a href="#contact-us">CONTACT US</a></li>
+    </ul>
+    <button class="login-btn">LOG IN</button>
+  </nav>
+</header>
+
+<div class="blur-bg-overlay"></div>
+<div class="form-popup">
+  <span class="close-btn material-symbols-rounded">close</span>
+  <div class="form-box login">
+    <div class="form-details">
+      <h2>Welcome Back</h2>
+      <p>Please log in using your personal information to stay connected with us.</p>
+    </div>
+    <div class="form-content">
+      <h2>LOGIN</h2>
+      <form action="main.html">
+        <div class="input-field">
+          <input type="text" required>
+          <label>Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <a href="#" class="forgot-pass-link">Forgot password?</a>
+        <button class="logbtn" type="submit">Log In</button>
+      </form>
+      <div class="bottom-link">
+        Don't have an account?
+        <a href="#" id="signup-link">Signup</a>
+      </div>
+    </div>
+  </div>
+  <div class="form-box signup">
+    <div class="form-details">
+      <h2>Create Account</h2>
+      <p>To become a part of our community, please sign up using your personal information.</p>
+    </div>
+    <div class="form-content">
+      <h2>SIGNUP</h2>
+      <form action="main.html">
+        <div class="input-field">
+          <input type="text" required>
+          <label>Enter your email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" required>
+          <label>Create password</label>
+        </div>
+        <div class="policy-text">
+          <input type="checkbox" id="policy">
+          <label for="policy">
+            I agree the
+            <a href="#" class="option">Terms & Conditions</a>
+          </label>
+        </div>
+        <button class="logbtn" type="submit">Sign Up</button>
+      </form>
+      <div class="bottom-link">
+        Already have an account?
+        <a href="main.html" id="login-link">Login</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="logo-image" id="logo">
+  <img src="image/logo.png" width="300px" alt="">
+</div>
+<div class="neon-container" id="home">
+  <div class="neon-border">
+      <h1 style="color: white;">Welcome To GALVATRON</h1>
+      <p style="color: #ccc;">Welcome to the Galvatron motorcycle riding Gear, your go-to source for all things motorcycle riding gear! Whether you're a seasoned rider or just starting out, having the right gear can make all the difference in your riding experience.When it comes to motorcycle riding, safety and comfort are paramount. High-quality gear not only protects you from the elements and potential accidents but also enhances your overall riding experience. At Galvatron, we believe in equipping riders with the best gear available, ensuring that you can hit the road with confidence.</p>
+  </div>
+  <div class="neon-border">
+    <h1 style="color: white;">Essential Gear for Every Rider</h1>
+    <p style="color: #ccc;">
+      Helmet: Your most crucial piece of gear. Look for a helmet that meets safety standards and fits snugly. Full-face helmets offer the best protection, while open-face models provide more visibility.<br><br><br>
+      
+      Jacket: A durable, abrasion-resistant jacket with armor in the shoulders, elbows, and back is essential. Leather and textile jackets both have their pros and cons, so choose what suits your style and comfort. <br><br><br>
+      
+      Gloves: Protect your hands with gloves that provide both grip and protection. Look for gloves with reinforced palms and knuckle protection for added safety. <br><br><br>
+      
+      Pants: Don’t forget about your legs! Riding pants made of Kevlar or other protective materials can shield you from abrasions in case of a fall. <br><br><br>
+      
+      Boots: Sturdy, ankle-high boots designed for riding can prevent foot injuries and provide better grip on the bike. Look for waterproof options for added comfort during rainy rides.</p>
+
+  </div>
+</div>
+<br><br><br><br>
+<div class="wrapper" id="products">
+
+  <div class="cols">
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+              <div class="front" style="background-image: url(imagelp/helmet4.jpg)">
+                  <div class="inner">
+                      <p>HELMETS</p>
+                      <span>A helmet is essential for protecting your head during activities like riding motorcycle</span>
+                  </div>
+              </div>
+              <div class="back" style="background-image: url(imagelp/helmet4.jpg);">
+                  <div class="inner">
+                    <p>Login to shop now</p>
+                    <a href="#logo" class="glass-button">Click Me</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+              <div class="front" style="background-image: url(imagelp/jacket7.jpg)">
+                  <div class="inner">
+                      <p>RIDING JACKETS</p>
+                      <span>Motorcycle riding jackets enhance safety, offering protection, durability, and comfort for riders.</span>
+                  </div>
+              </div>
+              <div class="back" style="background-image: url(imagelp/jacket7.jpg)">
+                  <div class="inner">
+                    <p>Login to shop now</p>
+                    <a href="#logo" class="glass-button">Click Me</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+              <div class="front" style="background-image: url(imagelp/pant1.jpg)">
+                  <div class="inner">
+                      <p>RIDING PANTS</p>
+                      <span>
+                        Motorcycle riding pants provide essential protection and comfort, ensuring safety during every ride.</span>
+                  </div>
+              </div>
+              <div class="back" style="background-image: url(imagelp/pant1.jpg)">
+                  <div class="inner">
+                    <p>Login to shop now</p>
+                    <a href="#logo" class="glass-button">Click Me</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+              <div class="front" style="background-image: url(imagelp/boots.jpg)">
+                  <div class="inner">
+                      <p>RIDING BOOTS</p>
+                      <span>
+                        Motorcycle riding boots offer protection, grip, and comfort, enhancing safety for every ride.</span>
+                  </div>
+              </div>
+              <div class="back" style="background-image: url(imagelp/boots.jpg)">
+                  <div class="inner">
+                    <p>Login to shop now</p>
+                    <a href="#logo" class="glass-button">Click Me</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+              <div class="front" style="background-image: url(imagelp/gloves1.jpg)">
+                  <div class="inner">
+                      <p>RIDING GLOVES</p>
+                      <span>Motorcycle riding gloves provide grip, protection, and comfort for safer riding experiences.</span>
+                  </div>
+              </div>
+              <div class="back" style="background-image: url(imagelp/gloves1.jpg)">
+                  <div class="inner">
+                    <p>Login to shop now</p>
+                    <a href="#logo" class="glass-button">Click Me</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+  </div>
+</div>
+<div class="neon-container" id="about-us">
+  <div class="neon-border">
+      <h1 style="color: white;">ABOUT US</h1>
+      <p style="color: #ccc;"> Galvatron is the ultimate online destination for motorcycle enthusiasts seeking high-quality riding gear. Our mission is to provide riders with the best selection of protective and stylish equipment, ensuring that every ride is safe and enjoyable.
+
+        At Galvatron, we understand that safety is paramount, which is why we offer a curated collection of top-tier helmets, jackets, pants, boots, and gloves from trusted brands. Each product is carefully selected for its durability, comfort, and performance, giving you peace of mind on every journey.
+        
+        Our user-friendly website makes it easy to browse our extensive inventory. Whether you’re a seasoned rider or just starting out, you’ll find gear tailored to your needs and preferences. With detailed product descriptions, sizing guides, and customer reviews, you can make informed choices that suit your riding style.
+        
+        In addition to our exceptional products, Galvatron is committed to delivering outstanding customer service. Our knowledgeable team is available to answer your questions and help you find the perfect gear. Plus, we offer fast shipping and hassle-free returns, ensuring that your shopping experience is smooth and satisfying.
+        
+        Join the Galvatron community and gear up for your next adventure. With our high-quality riding gear, you can ride with confidence and style, knowing you’re protected on the road. Explore Galvatron today and discover the freedom of the open road!</p>
+  </div>
+</div>
+<div class="neon-container" id="contact-us">
+  <div class="neon-border">
+      <h1 style="color: white;">CONTACT US</h1>
+      <ul>
+        <li class="instagram"><i class="fa-brands fa-instagram icon1 icon"></i></li>
+        <li class="youtube"><i class="fa-brands fa-youtube icon3 icon"></i></li>
+        <li class="facebook"><i class="fa-brands fa-facebook icon4 icon"></i></li>
+    </ul>    
+  </div>
+</div>
+
+
+  <script  src="landingpage.js"></script>
+</body>
+</html>
